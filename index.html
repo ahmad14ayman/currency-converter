@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency-Calculator</title>
+    <link rel="icon" href="calculator.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <h2>Currency Converter Application</h2>
+        </header>
+        <div class="date">
+            <span>Date</span>
+            <span class="data-api"></span>
+        </div>
+        <div class="container">
+            <div class="amount">
+                <span>Amount :</span>
+                <input type="text">
+            </div>
+            <div class="from">
+                <span>From :</span>
+                <select class="sel-from"></select>
+            </div>
+            <div class="to">
+                <span>To :</span>
+                <select class="sel-to"></select>
+            </div>
+            <button type="button">Convert</button>
+            <div class="output">
+                <span> The Result : </span>
+                <span class="result"></span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
